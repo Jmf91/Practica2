@@ -1,7 +1,7 @@
 Práctica 2: Aislamiento de una aplicación web usando jaulas.
 ===========================
 
-En esta práctica, voy a aislar una pequeña aplicacion web en una jaula. Usaré el sistema operativo
+En esta práctica, voy a aislar una pequeña aplicacion web basada en python en una jaula. Usaré el sistema operativo
 ubuntu 12.10 "(quantal quetzal), con una arquitectura de 32 bits.
 
 Creación de la jaula
@@ -18,12 +18,37 @@ Posteriormente ejecutamos la jaula con la orden "sudo chroot /home/jaulas/quanta
 a nuestro gusto. 
 
   - Montamos el directorio /proc y cambiamos el idioma a español.
-  - Instalamos librerias que vamos a necesitar a continuación, tal como python, o web-python.
+  
+  ![im1](https://dl.dropbox.com/s/2wm0ohepa2o9odn/p3.png)
 
+  - Instalamos librerias que vamos a necesitar a continuación, tal como python, o webpy.
 
 ![im1](https://dl.dropbox.com/s/4ytqaqvwzl5r2rl/p2.png)
 
-![im1](https://dl.dropbox.com/s/2wm0ohepa2o9odn/p3.png)
+Para instalar webpy, necesitamos descargarla de 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://rafinguer.blogspot.com.es/2010/10/aplicaciones-web-sencillas-con-python.html
 
 
 
