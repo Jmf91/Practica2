@@ -17,15 +17,23 @@ arriba mencionada.
 Posteriormente ejecutamos la jaula con la orden "sudo chroot /home/jaulas/quantal" y procedemos a configurar el sistema
 a nuestro gusto. 
 
+![im4](https://dl.dropbox.com/s/ghxg54rfwbuyhv3/p4.png)
+
   - Montamos el directorio /proc y cambiamos el idioma a español.
   
-  ![im1](https://dl.dropbox.com/s/2wm0ohepa2o9odn/p3.png)
+![im1](https://dl.dropbox.com/s/2wm0ohepa2o9odn/p3.png)
 
   - Instalamos librerias que vamos a necesitar a continuación, tal como python, o webpy.
 
 ![im1](https://dl.dropbox.com/s/4ytqaqvwzl5r2rl/p2.png)
 
-Para instalar webpy, necesitamos descargarla de 
+Para instalar webpy, necesitamos descargarla de los repositorios de github. Para ello debemos instalar la aplicacion git
+y acceder a la libreria webpy a través de ésta. Para ello usamos los siguientes comandos:
+   - "sudo apt-get install git"
+   - "git clone git://github.com/webpy/webpy.git"
+   - En el directorio /webpy: "python setup.py install"
+  
+Ya tenemos instalada la libreria webpy.
 
 
 
