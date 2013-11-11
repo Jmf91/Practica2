@@ -1,2 +1,12 @@
 Práctica 2: Aislamiento de una aplicación web usando jaulas.
 ===========================
+
+En esta práctica, voy a aislar una pequeña aplicacion web en una jaula. Usaré el sistema operativo
+ubuntu 12.10 "(quantal quetzal), con una arquitectura de 32 bits.
+
+Creación de la jaula
+========================
+
+Para crear la jaula recurrimos a la herramienta debootstrap, que permite enjaular un SO Debian (Ubuntu, Guadalinex, Debian) a 
+través del siguiente comando:  "sudo debootstrap --arch=i386 quantal /home/jaulas/quantal/ http://archive.ubuntu.com/ubuntu". 
+Como se puede observar, --arch=i386 indica que se va a instalar la jaula en 32 bits, esta se instalará en la carpeta
