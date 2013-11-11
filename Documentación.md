@@ -59,16 +59,6 @@ Bibliografía
 ============================
 
 
-
-
-
-
-
-
-
 http://rafinguer.blogspot.com.es/2010/10/aplicaciones-web-sencillas-con-python.html
-
-
-
 
 
