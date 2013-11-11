@@ -14,11 +14,18 @@ arriba mencionada.
 
 ![im1](https://dl.dropbox.com/s/zogv6ainvzro6nw/p1.png)
 
-Posteriormente ejecutamos la jaula con la orden "sudo chroot /home/jaulas/quantal" y procedemos a instalar las diferentes
-librerias que vamos a necesitar a continuación, tal como python, o web-python, ademas de montar el directorio /proc y
-cambiar el idioma a español.
+Posteriormente ejecutamos la jaula con la orden "sudo chroot /home/jaulas/quantal" y procedemos a configurar el sistema
+a nuestro gusto. 
+
+  - Montamos el directorio /proc y cambiamos el idioma a español.
+  - Instalamos librerias que vamos a necesitar a continuación, tal como python, o web-python.
+
 
 ![im1](https://dl.dropbox.com/s/4ytqaqvwzl5r2rl/p2.png)
 
 ![im1](https://dl.dropbox.com/s/2wm0ohepa2o9odn/p3.png)
+
+
+
+
 
