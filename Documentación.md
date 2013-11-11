@@ -13,3 +13,9 @@ Como se puede observar, --arch=i386 indica que se va a instalar la jaula en 32 b
 arriba mencionada.
 
 ![im1](https://dl.dropbox.com/s/zogv6ainvzro6nw/p1.png)
+
+Posteriormente ejecutamos la jaula con la orden "sudo chroot /home/jaulas/quantal" y procedemos a instalar las diferentes
+librerias que vamos a necesitar a continuación, tal como python, o web-python.
+
+
+![im1](https://dl.dropbox.com/s/4ytqaqvwzl5r2rl/p2.png)
