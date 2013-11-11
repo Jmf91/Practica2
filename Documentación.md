@@ -41,7 +41,7 @@ Lanzar aplicación web.
 ======================================================
 
 Una vez que tenemos todo preparado, escribimos en el editor de texto "vi" la aplicación web python que vamos a ejecutar 
-en la jaula. Inicialmente vamos a programar un simple hola mundo, tal como se muestra en esta imagen:
+en la jaula. Vamos a programar un simple hola mundo, tal como se muestra en esta imagen:
 
 ![im6](https://dl.dropbox.com/s/64k7mr6doli6yhu/p6.png)
 
@@ -53,7 +53,10 @@ Obtenemos esta ejecución:
 ![im5](https://dl.dropbox.com/s/drhvijpl142zrnl/p5.png)
 
 
+Estamos ejecutando la aplicación holamundo.py a través de una jaula.
 
+Bibliografía
+============================
 
 
 
