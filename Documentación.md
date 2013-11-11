@@ -4,7 +4,7 @@ Práctica 2: Aislamiento de una aplicación web usando jaulas.
 En esta práctica, voy a aislar una pequeña aplicacion web basada en python en una jaula. Usaré el sistema operativo
 ubuntu 12.10 "(quantal quetzal), con una arquitectura de 32 bits.
 
-Creación de la jaula
+Creación de la jaula.
 ========================
 
 Para crear la jaula recurrimos a la herramienta debootstrap, que permite enjaular un SO Debian (Ubuntu, Guadalinex, Debian) a 
@@ -14,6 +14,8 @@ arriba mencionada.
 
 ![im1](https://dl.dropbox.com/s/zogv6ainvzro6nw/p1.png)
 
+Configuración de la jaula.
+=============================================
 Posteriormente ejecutamos la jaula con la orden "sudo chroot /home/jaulas/quantal" y procedemos a configurar el sistema
 a nuestro gusto. 
 
